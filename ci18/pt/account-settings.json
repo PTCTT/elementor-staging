@@ -1,94 +1,94 @@
 {
     "dialog": {
-        "title": "Configurações da conta por aqui ->"
+        "title": "Configurações da conta aqui ->"
     },
     "nav": {
-        "profile": "Meu perfil",
-        "billingDetails": "Detalhes de faturamento",
-        "subscriptions": "Assinaturas"
+        "profile": "O meu perfil",
+        "billingDetails": "Detalhes de faturação",
+        "subscriptions": "Subscrições"
     },
     "myProfile": {
-        "title": "Meu perfil",
-        "emailChangeExpiredAlertTitle": "Não foi possível alterar o e-mail da sua conta.",
-        "emailChangeExpiredAlertText": "Novos e-mails devem ser verificados dentro de 7 dias após a atualização. O e-mail atual da sua conta ainda é {email}.",
+        "title": "O meu perfil",
+        "emailChangeExpiredAlertTitle": "Não foi possível alterar o email da sua conta.",
+        "emailChangeExpiredAlertText": "Os novos emails devem ser verificados em 7 dias após a atualização. O email atual da sua conta continua a ser {email}.",
         "nameForm": {
-            "firstName": "Nome",
-            "lastName": "Sobrenome",
+            "firstName": "Nome próprio",
+            "lastName": "Apelido",
             "validation": {
                 "invalidFormat": "Formato inválido",
-                "fieldRequired": "{field, select, firstName {Nome} lastName {Apelido} other {Este campo} } é obrigatório"
+                "fieldRequired": "{field, select, firstName {Nome próprio} lastName {Apelido} other {Este campo} } é obrigatório"
             },
             "success": "Nome atualizado com sucesso",
-            "error": "Falha ao atualizar o nome"
+            "error": "Falha ao atualizar nome"
         },
         "emailForm": {
             "email": "{change, select, true {Email atual} other {Email} }",
-            "newEmail": "Novo e-mail",
-            "change": "Alterar e-mail",
+            "newEmail": "Novo email",
+            "change": "Alterar email",
             "chip": {
-                "verified": "E-mail verificado",
+                "verified": "Email verificado",
                 "unverified": "Não verificado"
             },
             "modal": {
-                "title": "Atualize seu e-mail",
-                "email": "Digite um novo e-mail",
-                "emailConfirmation": "Confirme o novo e-mail",
-                "tosAgreement": "Li e entendi estes termos.",
-                "updateEmailFormNote": "O que acontecerá após alterar o endereço de e-mail?",
-                "updateEmailChanges": "<li>Como proprietário do novo endereço de e-mail, você concederá acesso total ao proprietário do novo endereço de e-mail a todas as informações no painel “Meu Elementor” e ao histórico de conversas de suporte.</li><li>A antiga conta de e-mail não receberá mais lembretes e avisos do sistema. Estes serão redirecionados para o novo endereço de e-mail.</li><li>Você deve validar seu novo endereço de e-mail confirmando o e-mail de validação.</li><li>Você não terá mais acesso à sua conta com o antigo endereço de e-mail uma vez que o processo de validação esteja concluído.</li>",
-                "confirmationStatement": "Eu confirmo que:",
-                "updateEmailToS": "<li>Sou o dono do novo endereço de email (de acordo com os <btn>Termos e Condições do Elementor</btn>)</li><li>Sou o dono desta conta Elementor e peço para mudar o endereço de email da conta.</li>",
-                "save": "Salvar",
+                "title": "Atualize o seu email",
+                "email": "Insira um novo email",
+                "emailConfirmation": "Confirme o novo email",
+                "tosAgreement": "Li e compreendi estes termos.",
+                "updateEmailFormNote": "O que acontecerá após alterar o endereço de email?",
+                "updateEmailChanges": "<li>Como proprietário do novo endereço de email, concederá acesso total ao proprietário do novo email a todas as informações no painel “O Meu Elementor” e ao histórico de conversas de suporte.</li><li>A conta de email antiga deixará de receber lembretes e avisos do sistema. Estes serão redirecionados para o novo endereço de email.</li><li>Deve validar o seu novo endereço de email confirmando o email de validação.</li><li>Não terá acesso à sua conta com o endereço de email anterior após a conclusão do processo de validação.</li>",
+                "confirmationStatement": "Confirmo que:",
+                "updateEmailToS": "<li>Sou o proprietário do novo endereço de email (de acordo com os <btn>T&C do Elementor</btn>)</li><li>Sou o proprietário desta conta Elementor e solicito a alteração do endereço de email da conta.</li>",
+                "save": "Guardar",
                 "cancel": "Cancelar",
                 "success": {
-                    "emailChangeSuccessTitle": "Você está quase lá!",
-                    "emailChangeSuccessText": "Enviamos um e-mail de verificação para <strongText>{email}</strongText>.<break/> Pode levar alguns minutos para aparecer, ou verifique sua pasta de spam.",
-                    "whatsNext": "O que vem a seguir:",
-                    "updateEmailNextSteps": "<li>Vá para sua caixa de entrada e verifique seu novo e-mail. Quando terminar, você poderá usar o novo endereço de e-mail.</li><li>A atualização do e-mail será cancelada se você não verificar o novo e-mail dentro de 7 dias.</li><li>Você se inscreveu com sua conta de mídia social? Talvez seja necessário atualizar sua senha.</li>",
+                    "emailChangeSuccessTitle": "Está quase a terminar!",
+                    "emailChangeSuccessText": "Enviámos um email de verificação para <strongText>{email}</strongText>.<break/> Pode demorar alguns minutos a aparecer, ou verifique a sua pasta de spam.",
+                    "whatsNext": "O que se segue:",
+                    "updateEmailNextSteps": "<li>Vá à sua caixa de entrada e verifique o seu novo email. Quando terminar, poderá usar o novo endereço de email.</li><li>A atualização do email será cancelada se não verificar o novo email dentro de 7 dias.</li><li>Inscreveu-se com a sua conta de redes sociais? Poderá precisar de atualizar a sua palavra-passe.</li>",
                     "done": "Concluído",
-                    "resendEmail": "Reenviar e-mail"
+                    "resendEmail": "Reenviar email"
                 }
             },
             "validation": {
-                "invalidFormat": "E-mail inválido",
+                "invalidFormat": "Email inválido",
                 "fieldRequired": "{field, select, email {Novo email} emailConfirmation {Confirmar novo email} other {Este campo} } é obrigatório",
-                "emailsDontMatch": "Esses endereços de e-mail não correspondem. Tente novamente."
+                "emailsDontMatch": "Estes endereços de email não coincidem. Tente novamente."
             }
         },
         "passwordForm": {
-            "password": "Senha",
-            "change": "Alterar senha",
+            "password": "Palavra-passe",
+            "change": "Alterar palavra-passe",
             "modal": {
-                "title": "Altere sua senha",
-                "oldPassword": "Senha atual",
-                "newPassword": "Nova senha",
-                "confirmPassword": "Confirmar nova senha",
-                "save": "Salvar",
+                "title": "Altere a sua palavra-passe",
+                "oldPassword": "Palavra-passe atual",
+                "newPassword": "Nova palavra-passe",
+                "confirmPassword": "Confirmar nova palavra-passe",
+                "save": "Guardar",
                 "cancel": "Cancelar",
-                "success": "Senha atualizada com sucesso",
-                "error": "Falha ao atualizar a senha"
+                "success": "Palavra-passe atualizada com sucesso",
+                "error": "Falha ao atualizar palavra-passe"
             },
             "validation": {
-                "fieldRequired": "{field, select, oldPassword {Password atual} newPassword {Nova password} confirmPassword {Confirmar nova password} other {Este campo} } é obrigatório",
-                "passwordsDoNotMatch": "As senhas não coincidem",
-                "userPasswordRule": "A senha deve ter pelo menos oito caracteres e conter pelo menos uma letra maiúscula, uma minúscula, um dígito e um caractere especial.",
-                "oldAsNewPassword": "A nova senha deve ser diferente da senha atual"
+                "fieldRequired": "{field, select, oldPassword {Palavra-passe atual} newPassword {Nova palavra-passe} confirmPassword {Confirmar nova palavra-passe} other {Este campo} } é obrigatório",
+                "passwordsDoNotMatch": "As palavras-passe não coincidem",
+                "userPasswordRule": "A palavra-passe deve ter pelo menos oito caracteres e conter pelo menos uma maiúscula, uma minúscula, um dígito e um carácter especial.",
+                "oldAsNewPassword": "A nova palavra-passe deve ser diferente da atual"
             }
         }
     },
     "billingDetails": {
-        "title": "Detalhes de faturamento",
-        "empty": "Nenhum detalhe de faturamento encontrado"
+        "title": "Detalhes de faturação",
+        "empty": "Nenhum detalhe de faturação encontrado"
     },
     "subscriptions": {
-        "title": "Assinaturas",
+        "title": "Subscrições",
         "tabs": {
-            "subscriptions": "Assinaturas",
+            "subscriptions": "Subscrições",
             "services": "Serviços"
         }
     },
     "common": {
-        "billingUsdTooltip": "A menos que especificado de outra forma,\n todos os preços em $ estão em USD",
-        "buyNewSubscription": "Comprar uma nova assinatura"
+        "billingUsdTooltip": "Salvo indicação em contrário,\n todos os preços $ são em USD",
+        "buyNewSubscription": "Comprar nova subscrição"
     }
 }
