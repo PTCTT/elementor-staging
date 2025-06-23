@@ -4,25 +4,25 @@
     },
     "nav": {
         "profile": "Mi perfil",
-        "billingDetails": "Detalles de facturación",
+        "billingDetails": "Datos de facturación",
         "subscriptions": "Suscripciones"
     },
     "myProfile": {
         "title": "Mi perfil",
         "emailChangeExpiredAlertTitle": "No pudimos cambiar el correo electrónico de tu cuenta.",
-        "emailChangeExpiredAlertText": "Los nuevos correos electrónicos deben verificarse dentro de los 7 días posteriores a la actualización. El correo electrónico actual de su cuenta sigue siendo {email}.",
+        "emailChangeExpiredAlertText": "Los nuevos correos electrónicos deben verificarse dentro de los 7 días posteriores a la actualización. El correo electrónico actual de tu cuenta sigue siendo {email}.",
         "nameForm": {
             "firstName": "Nombre",
             "lastName": "Apellido",
             "validation": {
-                "invalidFormat": "Formato inválido",
-                "fieldRequired": "{field, select, firstName {Nombre} lastName {Apellido} other {Este campo} } es obligatorio"
+                "invalidFormat": "Formato no válido",
+                "fieldRequired": "{field, select, firstName {El nombre} lastName {El apellido} other {Este campo} } es obligatorio"
             },
-            "success": "Nombre actualizado exitosamente",
+            "success": "Nombre actualizado correctamente",
             "error": "Error al actualizar el nombre"
         },
         "emailForm": {
-            "email": "{change, select, true {Email actual} other {Email} }",
+            "email": "{change, select, true {Correo electrónico actual} other {Correo electrónico} }",
             "newEmail": "Nuevo correo electrónico",
             "change": "Cambiar correo electrónico",
             "chip": {
@@ -31,27 +31,27 @@
             },
             "modal": {
                 "title": "Actualiza tu correo electrónico",
-                "email": "Ingresa un nuevo correo electrónico",
+                "email": "Introduce un nuevo correo electrónico",
                 "emailConfirmation": "Confirma el nuevo correo electrónico",
                 "tosAgreement": "He leído y entendido estos términos.",
                 "updateEmailFormNote": "¿Qué sucederá después de cambiar la dirección de correo electrónico?",
-                "updateEmailChanges": "<li>Como propietario de la nueva dirección de correo electrónico, otorgarás acceso completo al propietario de la nueva dirección de correo electrónico a toda la información en el panel de “Mi Elementor” y al historial de conversaciones de soporte.</li><li>La cuenta de correo electrónico antigua ya no recibirá recordatorios y avisos del sistema. Estos se redirigirán a la nueva dirección de correo electrónico.</li><li>Debes validar tu nueva dirección de correo electrónico confirmando el correo de validación.</li><li>No tendrás acceso a tu cuenta con la dirección de correo electrónico anterior una vez que se complete el proceso de validación.</li>",
+                "updateEmailChanges": "<li>Como propietario de la nueva dirección de correo electrónico, concederás acceso completo al propietario de la nueva dirección de correo electrónico a toda la información en el panel de control de “Mi Elementor” y al historial de conversaciones de soporte.</li><li>La cuenta de correo electrónico antigua ya no recibirá recordatorios y avisos del sistema. Estos se redirigirán a la nueva dirección de correo electrónico.</li><li>Debes validar tu nueva dirección de correo electrónico confirmando el correo de validación.</li><li>No tendrás acceso a tu cuenta con la dirección de correo electrónico anterior una vez que se complete el proceso de validación.</li>",
                 "confirmationStatement": "Por la presente confirmo que:",
-                "updateEmailToS": "<li>Soy el dueño de la nueva dirección de correo electrónico (según los <btn>términos y condiciones de Elementor</btn>)</li><li>Soy el propietario de esta cuenta de Elementor y solicito cambiar la dirección de correo electrónico de la cuenta.</li>",
+                "updateEmailToS": "<li>Soy el propietario de la nueva dirección de correo electrónico (de acuerdo con los <btn>Términos y condiciones de Elementor</btn>)</li><li>Soy el propietario de esta cuenta de Elementor y solicito cambiar la dirección de correo electrónico de la cuenta.</li>",
                 "save": "Guardar",
                 "cancel": "Cancelar",
                 "success": {
-                    "emailChangeSuccessTitle": "¡Ya casi terminas!",
-                    "emailChangeSuccessText": "Hemos enviado un correo electrónico de verificación a <strongText>{email}</strongText>.<break/> Puede tardar unos minutos en aparecer, o revise su carpeta de spam.",
-                    "whatsNext": "Próximos pasos:",
-                    "updateEmailNextSteps": "<li>Ve a tu bandeja de entrada y verifica tu nuevo correo electrónico. Una vez que hayas terminado, podrás usar la nueva dirección de correo electrónico.</li><li>La actualización del correo electrónico se cancelará si no verificas el nuevo correo electrónico dentro de los 7 días.</li><li>¿Te registraste con tu cuenta de redes sociales? Es posible que necesites actualizar tu contraseña.</li>",
-                    "done": "Listo",
+                    "emailChangeSuccessTitle": "¡Ya casi has terminado!",
+                    "emailChangeSuccessText": "Hemos enviado un correo electrónico de verificación a <strongText>{email}</strongText>.<break/> Puede tardar unos minutos en aparecer, o comprueba tu carpeta de spam.",
+                    "whatsNext": "Qué sigue:",
+                    "updateEmailNextSteps": "<li>Ve a tu bandeja de entrada y verifica tu nuevo correo electrónico. Una vez que hayas terminado, podrás usar la nueva dirección de correo electrónico.</li><li>La actualización del correo electrónico se cancelará si no verificas el nuevo correo electrónico en 7 días.</li><li>¿Te registraste con tu cuenta de redes sociales? Es posible que necesites actualizar tu contraseña.</li>",
+                    "done": "Hecho",
                     "resendEmail": "Reenviar correo electrónico"
                 }
             },
             "validation": {
-                "invalidFormat": "Correo electrónico inválido",
-                "fieldRequired": "{field, select, email {Nuevo correo} emailConfirmation {Confirma el nuevo correo} other {Este campo} } es obligatorio",
+                "invalidFormat": "Correo electrónico no válido",
+                "fieldRequired": "{field, select, email {El nuevo correo electrónico} emailConfirmation {La confirmación del nuevo correo electrónico} other {Este campo} } es obligatorio",
                 "emailsDontMatch": "Estas direcciones de correo electrónico no coinciden. Inténtalo de nuevo."
             }
         },
@@ -65,20 +65,20 @@
                 "confirmPassword": "Confirmar nueva contraseña",
                 "save": "Guardar",
                 "cancel": "Cancelar",
-                "success": "Contraseña actualizada exitosamente",
+                "success": "Contraseña actualizada correctamente",
                 "error": "Error al actualizar la contraseña"
             },
             "validation": {
-                "fieldRequired": "{field, select, oldPassword {Contraseña actual} newPassword {Contraseña nueva} confirmPassword {Confirmar contraseña nueva} other {Este campo} } es obligatorio",
+                "fieldRequired": "{field, select, oldPassword {La contraseña actual} newPassword {La nueva contraseña} confirmPassword {La confirmación de la nueva contraseña} other {Este campo} } es obligatorio",
                 "passwordsDoNotMatch": "Las contraseñas no coinciden",
-                "userPasswordRule": "La contraseña debe tener al menos ocho caracteres y contener al menos una mayúscula, una minúscula, un dígito y un carácter especial.",
+                "userPasswordRule": "La contraseña debe tener al menos ocho caracteres de longitud y contener al menos una mayúscula, una minúscula, un dígito y un carácter especial.",
                 "oldAsNewPassword": "La nueva contraseña debe ser diferente de la contraseña actual"
             }
         }
     },
     "billingDetails": {
-        "title": "Detalles de facturación",
-        "empty": "No se encontraron detalles de facturación"
+        "title": "Datos de facturación",
+        "empty": "No se encontraron datos de facturación"
     },
     "subscriptions": {
         "title": "Suscripciones",
