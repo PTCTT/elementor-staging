@@ -1,16 +1,16 @@
 {
     "dialog": {
-        "title": "Accountinstellingen hierzo ->"
+        "title": "Accountinstellingen hier ->"
     },
     "nav": {
         "profile": "Mijn profiel",
-        "billingDetails": "Factureringsgegevens",
+        "billingDetails": "Factuurgegevens",
         "subscriptions": "Abonnementen"
     },
     "myProfile": {
         "title": "Mijn profiel",
         "emailChangeExpiredAlertTitle": "We konden het e-mailadres van je account niet wijzigen.",
-        "emailChangeExpiredAlertText": "Nieuwe e-mails moeten binnen 7 dagen na de update worden geverifieerd. Het huidige e-mailadres van uw account is nog steeds {email}.",
+        "emailChangeExpiredAlertText": "Nieuwe e-mailadressen moeten binnen 7 dagen na de update worden geverifieerd. Het huidige e-mailadres van je account is nog steeds {email}.",
         "nameForm": {
             "firstName": "Voornaam",
             "lastName": "Achternaam",
@@ -30,23 +30,23 @@
                 "unverified": "Niet geverifieerd"
             },
             "modal": {
-                "title": "Werk je e-mailadres bij",
+                "title": "Update je e-mailadres",
                 "email": "Voer een nieuw e-mailadres in",
                 "emailConfirmation": "Bevestig het nieuwe e-mailadres",
                 "tosAgreement": "Ik heb deze voorwaarden gelezen en begrepen.",
                 "updateEmailFormNote": "Wat gebeurt er na het wijzigen van het e-mailadres?",
-                "updateEmailChanges": "<li>Als eigenaar van het nieuwe e-mailadres geef je volledige toegang tot alle informatie op het “Mijn Elementor” dashboard en de ondersteuningsgespreksgeschiedenis aan de eigenaar van het nieuwe e-mailadres.</li><li>Het oude e-mailaccount zal geen systeemherinneringen en meldingen meer ontvangen. Deze worden doorgestuurd naar het nieuwe e-mailadres.</li><li>Je moet je nieuwe e-mailadres valideren door de validatie-e-mail te bevestigen.</li><li>Je hebt geen toegang meer tot je account met het voormalige e-mailadres zodra het validatieproces is voltooid.</li>",
+                "updateEmailChanges": "<li>Als eigenaar van het nieuwe e-mailadres geef je de eigenaar van het nieuwe e-mailadres volledige toegang tot alle informatie op het “Mijn Elementor”-dashboard en de geschiedenis van supportgesprekken.</li><li>Het oude e-mailaccount zal geen systeemherinneringen en meldingen meer ontvangen. Deze worden doorgestuurd naar het nieuwe e-mailadres.</li><li>Je moet je nieuwe e-mailadres valideren door de validatie-e-mail te bevestigen.</li><li>Je hebt geen toegang meer tot je account met het vorige e-mailadres zodra het validatieproces is voltooid.</li>",
                 "confirmationStatement": "Ik bevestig hierbij dat:",
-                "updateEmailToS": "<li>Ik ben de eigenaar van het nieuwe e-mailadres (volgens <btn>Elementor's algemene voorwaarden</btn>)</li><li>Ik ben de eigenaar van dit Elementor-account en vraag om het e-mailadres van het account te wijzigen.</li>",
+                "updateEmailToS": "<li>Ik de eigenaar ben van het nieuwe e-mailadres (volgens <btn>Elementor's Algemene Voorwaarden</btn>)</li><li>Ik de eigenaar ben van dit Elementor-account en verzoek om het e-mailadres van het account te wijzigen.</li>",
                 "save": "Opslaan",
                 "cancel": "Annuleren",
                 "success": {
                     "emailChangeSuccessTitle": "Je bent er bijna!",
-                    "emailChangeSuccessText": "We hebben een verificatie-e-mail gestuurd naar <strongText>{email}</strongText>.<break/> Het kan een paar minuten duren voordat deze verschijnt, of controleer uw spammap.",
+                    "emailChangeSuccessText": "We hebben een verificatie-e-mail gestuurd naar <strongText>{email}</strongText>.<break/> Het kan een paar minuten duren voordat deze verschijnt, of controleer je spammap.",
                     "whatsNext": "Wat nu",
-                    "updateEmailNextSteps": "<li>Ga naar je inbox en verifieer je nieuwe e-mailadres. Zodra je klaar bent, kun je het nieuwe e-mailadres gebruiken.</li><li>De e-mail-update wordt geannuleerd als je het nieuwe e-mailadres niet binnen 7 dagen verifieert.</li><li>Heb je je aangemeld met je sociale media-account? Mogelijk moet je je wachtwoord bijwerken.</li>",
+                    "updateEmailNextSteps": "<li>Ga naar je inbox en verifieer je nieuwe e-mailadres. Zodra je klaar bent, kun je het nieuwe e-mailadres gebruiken.</li><li>De e-mail-update wordt geannuleerd als je het nieuwe e-mailadres niet binnen 7 dagen verifieert.</li><li>Heb je je aangemeld met je social media-account? Mogelijk moet je je wachtwoord bijwerken.</li>",
                     "done": "Klaar",
-                    "resendEmail": "E-mail opnieuw versturen"
+                    "resendEmail": "E-mail opnieuw verzenden"
                 }
             },
             "validation": {
@@ -71,14 +71,14 @@
             "validation": {
                 "fieldRequired": "{field, select, oldPassword {Huidig wachtwoord} newPassword {Nieuw wachtwoord} confirmPassword {Bevestig nieuw wachtwoord} other {Dit veld} } is verplicht",
                 "passwordsDoNotMatch": "Wachtwoorden komen niet overeen",
-                "userPasswordRule": "Wachtwoord moet minstens acht tekens lang zijn en ten minste één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten.",
-                "oldAsNewPassword": "Nieuw wachtwoord moet verschillen van het huidige wachtwoord"
+                "userPasswordRule": "Het wachtwoord moet minimaal acht tekens lang zijn en ten minste één hoofdletter, één kleine letter, één cijfer en één speciaal teken bevatten.",
+                "oldAsNewPassword": "Het nieuwe wachtwoord moet verschillen van het huidige wachtwoord"
             }
         }
     },
     "billingDetails": {
-        "title": "Factureringsgegevens",
-        "empty": "Geen factureringsgegevens gevonden"
+        "title": "Factuurgegevens",
+        "empty": "Geen factuurgegevens gevonden"
     },
     "subscriptions": {
         "title": "Abonnementen",
@@ -88,7 +88,7 @@
         }
     },
     "common": {
-        "billingUsdTooltip": "Tenzij anders vermeld,\n zijn alle $ prijzen in USD",
+        "billingUsdTooltip": "Tenzij anders vermeld,\n zijn alle prijzen in USD",
         "buyNewSubscription": "Koop een nieuw abonnement"
     }
 }
