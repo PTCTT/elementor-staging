@@ -1,6 +1,6 @@
 {
     "dialog": {
-        "title": "Le impostazioni dell'account sono da questa parte ->"
+        "title": "Impostazioni account qui ->"
     },
     "nav": {
         "profile": "Il mio profilo",
@@ -16,7 +16,7 @@
             "lastName": "Cognome",
             "validation": {
                 "invalidFormat": "Formato non valido",
-                "fieldRequired": "{field, select, firstName {Nome} lastName {Cognome} other {Questo campo} } è obbligatorio"
+                "fieldRequired": "{field, select, firstName {Il nome} lastName {Il cognome} other {Questo campo} } è obbligatorio"
             },
             "success": "Nome aggiornato con successo",
             "error": "Impossibile aggiornare il nome"
@@ -35,23 +35,23 @@
                 "emailConfirmation": "Conferma la nuova email",
                 "tosAgreement": "Ho letto e compreso questi termini.",
                 "updateEmailFormNote": "Cosa succederà dopo aver cambiato l'indirizzo email?",
-                "updateEmailChanges": "<li>In qualità di proprietario del nuovo indirizzo email, concederai pieno accesso al proprietario del nuovo indirizzo email a tutte le informazioni sulla dashboard “My Elementor” e alla cronologia delle conversazioni di supporto.</li><li>Il vecchio account email non riceverà più promemoria e avvisi di sistema. Questi saranno reindirizzati al nuovo indirizzo email.</li><li>Devi convalidare il tuo nuovo indirizzo email confermando l'email di convalida.</li><li>Non avrai più accesso al tuo account con il precedente indirizzo email una volta completato il processo di convalida.</li>",
+                "updateEmailChanges": "<li>In qualità di proprietario del nuovo indirizzo email, concederai pieno accesso al proprietario del nuovo indirizzo email a tutte le informazioni sulla dashboard di “My Elementor” e alla cronologia delle conversazioni di supporto.</li><li>Il vecchio account email non riceverà più promemoria e avvisi di sistema. Questi saranno reindirizzati al nuovo indirizzo email.</li><li>Devi convalidare il tuo nuovo indirizzo email confermando l'email di convalida.</li><li>Non avrai più accesso al tuo account con il precedente indirizzo email una volta completato il processo di convalida.</li>",
                 "confirmationStatement": "Con la presente confermo che:",
-                "updateEmailToS": "<li>Sono il proprietario del nuovo indirizzo email (secondo i <btn>Termini e Condizioni di Elementor</btn>)</li><li>Sono il proprietario di questo account Elementor e chiedo di cambiare l'indirizzo email dell'account.</li>",
+                "updateEmailToS": "<li>Sono il proprietario del nuovo indirizzo email (secondo i <btn>Termini e Condizioni di Elementor</btn>)</li><li>Sono il proprietario di questo account Elementor e richiedo di cambiare l'indirizzo email dell'account.</li>",
                 "save": "Salva",
                 "cancel": "Annulla",
                 "success": {
-                    "emailChangeSuccessTitle": "Ci sei quasi!",
-                    "emailChangeSuccessText": "Abbiamo inviato un'email di verifica a <strongText>{email}</strongText>.<break/> Potrebbero volerci alcuni minuti prima che appaia, oppure controlla la cartella dello spam.",
+                    "emailChangeSuccessTitle": "Hai quasi finito!",
+                    "emailChangeSuccessText": "Abbiamo inviato un'email di verifica a <strongText>{email}</strongText>.<break/> Potrebbero volerci alcuni minuti prima che appaia, o controlla la cartella spam.",
                     "whatsNext": "Cosa succede dopo:",
-                    "updateEmailNextSteps": "<li>Vai nella tua casella di posta e verifica la tua nuova email. Una volta fatto, potrai utilizzare il nuovo indirizzo email.</li><li>L'aggiornamento dell'email verrà annullato se non verifichi la nuova email entro 7 giorni.</li><li>Ti sei registrato con il tuo account social? Potrebbe essere necessario aggiornare la password.</li>",
+                    "updateEmailNextSteps": "<li>Vai nella tua casella di posta e verifica la tua nuova email. Una volta fatto, potrai utilizzare il nuovo indirizzo email.</li><li>L'aggiornamento dell'email sarà annullato se non verifichi la nuova email entro 7 giorni.</li><li>Ti sei registrato con il tuo account social? Potrebbe essere necessario aggiornare la tua password.</li>",
                     "done": "Fatto",
-                    "resendEmail": "Reinvia email"
+                    "resendEmail": "Invia di nuovo l'email"
                 }
             },
             "validation": {
                 "invalidFormat": "Email non valida",
-                "fieldRequired": "{field, select, email {Nuova email} emailConfirmation {Conferma nuova email} other {Questo campo} } è obbligatorio",
+                "fieldRequired": "{field, select, email {La nuova email} emailConfirmation {La conferma della nuova email} other {Questo campo} } è obbligatorio",
                 "emailsDontMatch": "Questi indirizzi email non corrispondono. Riprova."
             }
         },
@@ -69,9 +69,9 @@
                 "error": "Impossibile aggiornare la password"
             },
             "validation": {
-                "fieldRequired": "{field, select, oldPassword {Password attuale} newPassword {Nuova password} confirmPassword {Conferma nuova password} other {Questo campo} } è obbligatorio",
+                "fieldRequired": "{field, select, oldPassword {La password attuale} newPassword {La nuova password} confirmPassword {La conferma della nuova password} other {Questo campo} } è obbligatorio",
                 "passwordsDoNotMatch": "Le password non corrispondono",
-                "userPasswordRule": "La password deve essere lunga almeno otto caratteri e contenere almeno una lettera maiuscola, una minuscola, una cifra e un carattere speciale.",
+                "userPasswordRule": "La password deve essere lunga almeno otto caratteri e contenere almeno una lettera maiuscola, una minuscola, un numero e un carattere speciale.",
                 "oldAsNewPassword": "La nuova password deve essere diversa dalla password attuale"
             }
         }
@@ -88,7 +88,7 @@
         }
     },
     "common": {
-        "billingUsdTooltip": "Se non diversamente specificato,\n tutti i prezzi $ sono in USD",
+        "billingUsdTooltip": "Se non diversamente specificato,\n tutti i prezzi in $ sono in USD",
         "buyNewSubscription": "Acquista un nuovo abbonamento"
     }
 }

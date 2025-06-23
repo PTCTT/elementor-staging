@@ -1,6 +1,6 @@
 {
     "dialog": {
-        "title": "Kontoeinstellungen befinden sich hier ->"
+        "title": "Kontoeinstellungen hier ->"
     },
     "nav": {
         "profile": "Mein Profil",
@@ -10,7 +10,7 @@
     "myProfile": {
         "title": "Mein Profil",
         "emailChangeExpiredAlertTitle": "Wir konnten die E-Mail-Adresse Ihres Kontos nicht ändern.",
-        "emailChangeExpiredAlertText": "Neue E-Mails müssen innerhalb von 7 Tagen nach der Aktualisierung verifiziert werden. Die aktuelle E-Mail-Adresse Ihres Kontos ist weiterhin {email}.",
+        "emailChangeExpiredAlertText": "Neue E-Mail-Adressen müssen innerhalb von 7 Tagen nach der Aktualisierung verifiziert werden. Die aktuelle E-Mail-Adresse Ihres Kontos ist weiterhin {email}.",
         "nameForm": {
             "firstName": "Vorname",
             "lastName": "Nachname",
@@ -19,7 +19,7 @@
                 "fieldRequired": "{field, select, firstName {Vorname} lastName {Nachname} other {Dieses Feld} } ist erforderlich"
             },
             "success": "Name erfolgreich aktualisiert",
-            "error": "Fehler beim Aktualisieren des Namens"
+            "error": "Namensänderung fehlgeschlagen"
         },
         "emailForm": {
             "email": "{change, select, true {Aktuelle E-Mail} other {E-Mail} }",
@@ -35,16 +35,16 @@
                 "emailConfirmation": "Bestätigen Sie die neue E-Mail-Adresse",
                 "tosAgreement": "Ich habe diese Bedingungen gelesen und verstanden.",
                 "updateEmailFormNote": "Was passiert nach der Änderung der E-Mail-Adresse?",
-                "updateEmailChanges": "<li>Als Inhaber der neuen E-Mail-Adresse gewähren Sie dem Besitzer der neuen E-Mail-Adresse vollen Zugriff auf alle Informationen im Dashboard „Mein Elementor“ und den Verlauf der Support-Gespräche.</li><li>Das alte E-Mail-Konto wird keine Systembenachrichtigungen und Hinweise mehr erhalten. Diese werden an die neue E-Mail-Adresse weitergeleitet.</li><li>Sie müssen Ihre neue E-Mail-Adresse validieren, indem Sie die Bestätigungs-E-Mail bestätigen.</li><li>Sie haben keinen Zugriff mehr auf Ihr Konto mit der alten E-Mail-Adresse, sobald der Validierungsprozess abgeschlossen ist.</li>",
+                "updateEmailChanges": "<li>Als Besitzer der neuen E-Mail-Adresse gewähren Sie dem Besitzer der neuen E-Mail-Adresse vollen Zugriff auf alle Informationen im „My Elementor“-Dashboard und den Verlauf der Support-Gespräche.</li><li>Das alte E-Mail-Konto wird keine Systemerinnerungen und Benachrichtigungen mehr erhalten. Diese werden an die neue E-Mail-Adresse weitergeleitet.</li><li>Sie müssen Ihre neue E-Mail-Adresse validieren, indem Sie die Bestätigungs-E-Mail bestätigen.</li><li>Sie haben keinen Zugriff mehr auf Ihr Konto mit der alten E-Mail-Adresse, sobald der Validierungsprozess abgeschlossen ist.</li>",
                 "confirmationStatement": "Ich bestätige hiermit, dass:",
-                "updateEmailToS": "<li>Ich bin der Besitzer der neuen E-Mail-Adresse (gemäß <btn>Elementors AGB</btn>)</li><li>Ich bin der Besitzer dieses Elementor-Kontos und beantrage die Änderung der E-Mail-Adresse des Kontos.</li>",
+                "updateEmailToS": "<li>Ich der Besitzer der neuen E-Mail-Adresse bin (gemäß <btn>Elementor's AGB</btn>)</li><li>Ich der Besitzer dieses Elementor-Kontos bin und beantrage, die E-Mail-Adresse des Kontos zu ändern.</li>",
                 "save": "Speichern",
                 "cancel": "Abbrechen",
                 "success": {
                     "emailChangeSuccessTitle": "Sie sind fast fertig!",
-                    "emailChangeSuccessText": "Wir haben eine Verifizierungs-E-Mail an <strongText>{email}</strongText> gesendet.<break/> Es kann einige Minuten dauern, bis sie erscheint, oder überprüfen Sie Ihren Spam-Ordner.",
-                    "whatsNext": "Was als Nächstes zu tun ist:",
-                    "updateEmailNextSteps": "<li>Gehen Sie zu Ihrem Posteingang und verifizieren Sie Ihre neue E-Mail-Adresse. Sobald Sie fertig sind, können Sie die neue E-Mail-Adresse verwenden.</li><li>Die E-Mail-Aktualisierung wird storniert, wenn Sie die neue E-Mail-Adresse nicht innerhalb von 7 Tagen verifizieren.</li><li>Haben Sie sich mit Ihrem Social-Media-Konto angemeldet? Möglicherweise müssen Sie Ihr Passwort aktualisieren.</li>",
+                    "emailChangeSuccessText": "Wir haben eine Bestätigungs-E-Mail an <strongText>{email}</strongText> gesendet.<break/> Es kann ein paar Minuten dauern, bis sie erscheint, oder überprüfen Sie Ihren Spam-Ordner.",
+                    "whatsNext": "Was kommt als Nächstes:",
+                    "updateEmailNextSteps": "<li>Gehen Sie zu Ihrem Posteingang und verifizieren Sie Ihre neue E-Mail-Adresse. Sobald Sie fertig sind, können Sie die neue E-Mail-Adresse verwenden.</li><li>Die E-Mail-Aktualisierung wird abgebrochen, wenn Sie die neue E-Mail nicht innerhalb von 7 Tagen verifizieren.</li><li>Haben Sie sich mit Ihrem Social-Media-Konto angemeldet? Möglicherweise müssen Sie Ihr Passwort aktualisieren.</li>",
                     "done": "Fertig",
                     "resendEmail": "E-Mail erneut senden"
                 }
@@ -66,7 +66,7 @@
                 "save": "Speichern",
                 "cancel": "Abbrechen",
                 "success": "Passwort erfolgreich aktualisiert",
-                "error": "Fehler beim Aktualisieren des Passworts"
+                "error": "Passwortaktualisierung fehlgeschlagen"
             },
             "validation": {
                 "fieldRequired": "{field, select, oldPassword {Aktuelles Passwort} newPassword {Neues Passwort} confirmPassword {Neues Passwort bestätigen} other {Dieses Feld} } ist erforderlich",
@@ -84,11 +84,11 @@
         "title": "Abonnements",
         "tabs": {
             "subscriptions": "Abonnements",
-            "services": "Dienstleistungen"
+            "services": "Dienste"
         }
     },
     "common": {
         "billingUsdTooltip": "Sofern nicht anders angegeben,\n sind alle $-Preise in USD",
-        "buyNewSubscription": "Neues Abonnement kaufen"
+        "buyNewSubscription": "Ein neues Abonnement kaufen"
     }
 }
